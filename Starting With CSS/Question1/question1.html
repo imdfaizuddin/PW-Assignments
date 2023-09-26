@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .internal-css{
+            color: green;
+        }
+        .sameElement{
+            background-color: salmon;
+        }
+    </style>
+    <link rel="stylesheet" href="./question1.css">
+</head>
+<body>
+    <div style="background-color: red; display: inline-block; height: 20px;">
+        <p style="margin: 0;">Inline CSS example</p>
+    </div>
+    <div class="internal-css">
+        <p>This is an example of internal-css</p>
+    </div>
+    <div class="External-css">
+        <p>This is an example of External-css</p>
+    </div>
+    <!-- Targeting the same element with Inline, Internal and External css -->
+    <!-- inline CSS that targets the element will override any internal or external CSS that targets the same element -->
+    <div class="sameElement" style="background-color: yellow;">
+        <p>What happens if you target same sameElement with Inline, Internal and External-css</p>
+    </div>
+</body>
+</html>
