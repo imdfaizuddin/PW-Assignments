@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Question3</title>
+    <style>
+        .form {
+            background-color: rgba(96, 98, 246, 0.2);
+        }
+
+        .form__login--block {
+            display: block;
+        }
+
+        .form__inputusername {
+            background-color: aqua;
+        }
+        .form__inputemail{
+            background-color: coral;
+        }
+        .form__inputpassword {
+            background-color: rgba(24, 111, 101, 0.438);
+        }
+        /* adding opacity to an element */
+        .form__submitbutton {
+            opacity: 0.5;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="form">
+        <form action="/login_process" method="post" class="form">
+            <fieldset class="form__login">
+                <legend>Log in</legend>
+                <div class="form__login--block">
+                    <label for="username">Enter your username</label>
+                    <input class="form__inputusername" type="text" id="username" placeholder="Enter username">
+                </div>
+                <div class="form__login--block">
+                    <label for="email">Enter your email</label>
+                    <input class="form__inputemail" type="email" name="login" id="email" placeholder="Enter email">
+                </div>
+                <div class="form__login--block">
+                    <label for="password">Enter your password</label>
+                    <input class="form__inputpassword" type="password" id="password" placeholder="Enter password">
+                </div>
+                <div class="form__login--block">
+                    <input class="form__submitbutton" type="submit" value="submit">
+                </div>
+            </fieldset>
+        </form>
+    </div>
+</body>
+
+</html>
