@@ -1,5 +1,9 @@
 Q) explain the difference between Absolute and Relative positionin.
 
-Absolute positioning removes the element from the normal flow of the document and positions it relative to its nearest positioned ancestor (or the <body> element if there is no positioned ancestor). This means that the element will not take up any space in the normal document flow and will be positioned on top of other elements, even if they are placed below it in the HTML code.
+Absolute positioning removes the element from the normal flow of the document and positions it relative to its nearest positioned ancestor
+(or the <body> element if there is no positioned ancestor). This means that the element will not take up any space in the normal document
+flow and will be positioned on top of other elements, even if they are placed below it in the HTML code.
 
-Relative positioning positions the element relative to its normal position in the document flow. This means that the element will take up space in the normal document flow as if it were not positioned, but it will also be offset by the specified left, right, top, and bottom values.
+Relative positioning positions the element relative to its normal position in the document flow. This means that the element will take up
+space in the normal document flow as if it were not positioned, but it will also be offset by the specified left, right, top, and bottom
+values.
