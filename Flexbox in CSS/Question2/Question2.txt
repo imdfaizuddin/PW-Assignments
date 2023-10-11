@@ -1,0 +1,36 @@
+Q) Explain the role of the following key properties in the Flexbox layout model
+
+1.justify-content :-
+
+The justify-content property in flexbox is used to align flex items along the main axis of the flex container. The main axis is the horizontal axis for a row-flex container and the vertical axis for a column-flex container.
+
+2. align-items :-
+
+The align-items property in flexbox is used to align flex items along the cross axis of the flex container. The cross axis is the vertical axis for a row-flex container and the horizontal axis for a column-flex container.
+
+3. gap :-
+
+The gap property in flexbox is used to define the space between flex items. It can be used to create space between items along the main axis or the cross axis, or both.
+
+The gap property can take the following values:
+
+    A single value: This will define the space between items along both the main axis and the cross axis.
+
+    Two values: The first value will define the space between items along the main axis, and the second value will define the space between items along the cross axis.
+
+4. flex-direction :-
+
+The flex-direction property in flexbox is used to define the direction in which flex items are laid out. It can be set to one of the following values:
+
+    row: Flex items are laid out in a row, from left to right.
+    row-reverse: Flex items are laid out in a row, from right to left.
+    column: Flex items are laid out in a column, from top to bottom.
+    column-reverse: Flex items are laid out in a column, from bottom to top
+
+5. flex-wrap :-
+
+The flex-wrap property in flexbox is used to control whether or not flex items wrap onto multiple lines. It can be set to one of the following values:
+
+    nowrap: Flex items will not wrap onto multiple lines.
+    wrap: Flex items will wrap onto multiple lines if necessary.
+    wrap-reverse: Flex items will wrap onto multiple lines in reverse order.
