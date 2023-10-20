@@ -115,14 +115,16 @@
         .sub--button{
             display: flex;
             gap: 20px;
-            padding-left: 14%;
+            justify-content: center;
+            /* padding-left: 40px; */
         }
-        .sub--button > div{
+        .sub--button > button{
             display: flex;
             gap: 5px;
-            text-align: center;
+            /* text-align: center; */
             align-items: center;
-            padding: 5px;
+            flex-basis: 25%;
+            justify-content: center;
         }
         .book--ticket{
             background-color: #213D77;
@@ -157,18 +159,18 @@
                 <span class="punctuality">Punctuality</span>
             </div>
             <div class="sub--button">
-                <div class="book--ticket">
+                <button class="book--ticket">
                     <img src="images/bookTicket.png" alt="bookTicket">
-                    <p>BOOK Ticket</p>
-                </div>
-                <div class="pnr--status">
+                    BOOK Ticket
+                </button>
+                <button class="pnr--status">
                     <img src="./images/pnrstatus1.png" alt="pnr">
                     <p>PNR Status</p>
-                </div>
-                <div class="charts">
+                </button>
+                <button class="charts">
                     <img src="./images/insert_chart.png" alt="charts">
                     <p>Charts / Vacancy</p>
-                </div>
+                </button>
             </div>
         </div>
         <div class="right">
