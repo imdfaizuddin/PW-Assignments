@@ -1,0 +1,19 @@
+Q)Explain the use of grid-auto-row and grid-auto-column using code examples.
+
+grid-auto-row:
+The grid-auto-row CSS property specifies the size of the grid rows that were created without having an explicit size. In other words, this property sets the size of implicit rows and any other rows that have not been explicitly sized in the grid-template-rows property.
+
+Example of how to use grid-auto-rows to set the size of implicit rows to 100px:
+.container {
+  display: grid;
+  grid-auto-rows: 100px;
+}
+
+grid-auto-column:
+The grid-auto-column CSS property specifies the size of the grid columns that were created without having an explicit size. In other words, this property sets the size of implicit columns and any other columns that have not been explicitly sized in the grid-template-columns property.
+
+Example of how to use grid-auto-columns to set the size of implicit columns to the minimum size of their content:
+.container {
+  display: grid;
+  grid-auto-columns: min-content;
+}
