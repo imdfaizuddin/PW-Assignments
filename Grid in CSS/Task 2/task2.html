@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            display: grid;
+            grid-template-columns: auto auto auto;
+            gap: 20px;
+            width: 500px;
+            margin: auto;
+        }
+        .box{
+            background-color: burlywood;
+            font-size: 20px;
+            padding: 15px;
+            border-radius: 8px;
+        }
+        .a{
+            grid-column: span 2;
+        }
+        .b{
+            grid-row: span 2;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box a"><p>A</p></div>
+        <div class="box b"><p>B</p></div>
+        <div class="box"><p>C</p></div>
+        <div class="box"><p>D</p></div>
+    </div>
+</body>
+</html>
