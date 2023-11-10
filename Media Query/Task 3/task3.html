@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task 3</title>
+    <style>
+        .navigation--bar > ul {
+            display: flex;
+            gap: 10px;
+            background-color: black;
+            list-style: none;
+            justify-content: space-around;
+            padding: 10px;
+        }
+        .nav--links{
+            text-decoration: none;
+            color: white;
+        
+        }
+        @media screen and (max-width: 768px) {
+            .navigation--bar > ul{   
+                flex-direction: column;
+                background-color: grey;
+                align-items: center;
+            }
+        }
+    </style>
+</head>
+<body>
+    <nav class="navigation--bar">
+        <ul>
+            <li><a class="nav--links" href="#">About</a></li>
+            <li><a class="nav--links" href="#">Home</a></li>
+            <li><a class="nav--links" href="#">Services</a></li>
+            <li><a class="nav--links" href="#">Portfolio</a></li>
+            <li><a class="nav--links" href="#">Contact</a></li>
+        </ul>
+    </nav>
+</body>
+</html>
