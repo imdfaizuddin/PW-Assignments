@@ -1,0 +1,57 @@
+/* B. a)  */
+
+ul li a{
+    color: red;
+}
+
+/* B. b)  */
+
+nav > h2{
+    background-color: seagreen;
+    color: white;
+}
+
+/* B. c)   */
+
+div + p{
+    color: red;
+}
+
+/* C. a)  */
+
+a[href]{
+    color: red;
+    text-decoration: none;
+}
+
+/* C. b)  */
+
+a[class="active"]{
+    color: white;
+    text-decoration: underline;
+}
+
+/* C. c)  */
+
+a[target="_self"]{
+    background-color: sienna;
+}
+
+/* D. a)  */
+
+p:last-child::after {
+    content: "...";
+}
+
+/* D. b)  */
+
+li::marker{
+    color: green;
+}
+
+/* D. c)  */
+
+div + p + p::first-letter {
+    color: red;
+    font-size   : 30px;
+}
