@@ -5,12 +5,16 @@ make global changes.
 
 Using the var() function offers several benefits:
 
-1) Centralized style management: CSS variables allow you to define and manage styles in a centralized location, making it easier to change and update styles across a website or application.
+1) Centralized style management: CSS variables allow you to define and manage styles in a centralized location, making it easier to change 
+and update styles across a website or application.
 
-2) Improved maintainability: By using variables for commonly used colors, font sizes, and other styling values, the code becomes more maintainable and easier to understand.
+2) Improved maintainability: By using variables for commonly used colors, font sizes, and other styling values, the code becomes more 
+maintainable and easier to understand.
 
-3) Theme switching: CSS variables can be used to implement theme switching, allowing users to change the overall appearance of a website or application by simply changing the values of the defined variables.
+3) Theme switching: CSS variables can be used to implement theme switching, allowing users to change the overall appearance of a website or 
+application by simply changing the values of the defined variables.
 
-4) Dynamic styling: The var() function can be used with dynamic values, such as calculations or data from JavaScript, to create more dynamic and responsive styles.
+4) Dynamic styling: The var() function can be used with dynamic values, such as calculations or data from JavaScript, to create more dynamic 
+and responsive styles.
 
 5) Reusability: CSS variables can be reused throughout a codebase, promoting consistency and reducing the need for repetitive code.
